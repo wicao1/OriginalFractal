@@ -10,8 +10,6 @@ public void draw() {
 }
 
 public void mouseDragged() {
-  //background((int)(Math.random()*200),(int)(Math.random()*200),(int)(Math.random()*200));
-  //background(200,200,200);
   fractal((int)(mouseX)-40, (int)(mouseY)+30, 100);
 }
 
