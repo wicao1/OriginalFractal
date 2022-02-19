@@ -1,16 +1,17 @@
 public void setup() {
   background(0);
-  size(450, 400);
+  size(500, 400);
 }
 
 public void draw() {
   fill(255);
-  text("Christmas came early!", 250, 30);
-  text("Click to see colorful pattern", 250, 50);
+  text("Sierpiński Triangle Doodle!!", 250, 30);
+  text("Drag the mouse to see colorful pattern", 250, 50);
 }
 
 public void mouseDragged() {
   //background((int)(Math.random()*200),(int)(Math.random()*200),(int)(Math.random()*200));
+  //background(200,200,200);
   fractal((int)(mouseX)-40, (int)(mouseY)+30, 100);
 }
 
