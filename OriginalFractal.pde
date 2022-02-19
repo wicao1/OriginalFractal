@@ -9,8 +9,8 @@ public void draw() {
   text("Click to see colorful pattern", 250, 50);
 }
 
-public void mousePressed() {
-  background((int)(Math.random()*200),(int)(Math.random()*200),(int)(Math.random()*200));
+public void mouseDragged() {
+  //background((int)(Math.random()*200),(int)(Math.random()*200),(int)(Math.random()*200));
   fractal((int)(mouseX)-40, (int)(mouseY)+30, 100);
 }
 
